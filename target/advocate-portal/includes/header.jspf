@@ -1,0 +1,25 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%
+    String currentName = (String) session.getAttribute("name");
+    String currentRole = (String) session.getAttribute("role");
+%>
+<header class="topbar">
+    <a class="brand" href="index.jsp">
+        <span class="brand-mark" aria-hidden="true">⚖</span>
+        <span class="brand-name">Advocate <b>Connect</b><small>LEGAL CONSULTATION PORTAL</small></span>
+    </a>
+    <nav>
+        <b><p><a href="https://www.linkedin.com/in/madanmv/">©LinkedIn MadanMV</a></p></b>
+        <a href="index.jsp">Home</a>
+        <a href="advocates.jsp">Find advocates</a>
+        <a href="ai.jsp">AI legal guide</a>
+        <% if (currentName != null) { %>
+            <a href="dashboard">Dashboard</a>
+            <a href="account.jsp">My account</a>
+            <a href="logout">Sign out</a>
+        <% } else { %>
+            <a href="login.jsp">Sign in</a>
+            <a class="nav-cta" href="register.jsp">Join now</a>
+        <% } %>
+    </nav>
+</header>

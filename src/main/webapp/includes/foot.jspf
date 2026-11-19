@@ -1,0 +1,18 @@
+<footer class="footer">
+    <div>
+        <b>Advocate Connect</b>
+        <p>Making legal support easier to access.</p>
+        Contact us<br>
+        <b><p>MADAN M V</p></b>
+        <b><a href="https://www.linkedin.com/in/madanmv/" style="color: white;">©LinkedIn MadanMV</a></b>
+    </div>
+    
+    <div>
+        <b>© 2026 AI-Powered Advocate Connect.  </b>
+        <p><small>© 2026 Advocate Connect · General information only, not legal advice.</small></p>
+        <p>All rights reserved.By Madan M V, To Use This Website Contact Via :</p>
+        <b><a href="https://www.linkedin.com/in/madanmv/" style="color: white;">©LinkedIn MadanMV</a></b>
+    </div>
+    
+</footer>
+<script src="assets/app.js"></script>

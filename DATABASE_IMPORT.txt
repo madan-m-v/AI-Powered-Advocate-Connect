@@ -1,0 +1,32 @@
+ADVOCATE CONNECT — DATABASE IMPORT
+
+Import exactly one file:
+  database/advocate_connect_all_in_one.sql
+
+Requirements:
+  MySQL 8.0+
+  MySQL Workbench (or mysql CLI)
+
+Workbench:
+  1. Start MySQL.
+  2. File > Open SQL Script.
+  3. Select advocate_connect_all_in_one.sql.
+  4. Execute the whole script.
+
+This creates advocate_portal and all tables + indexes + foreign keys + demo accounts.
+WARNING: it drops/recreates the four application tables. Back up existing data first.
+
+Demo:
+  Admin:    admin@advocateconnect.local / Admin@123
+  Client:   client@advocateconnect.local / Demo@123
+  Advocate: aarav@advocateconnect.local / Demo@123
+            priya@advocateconnect.local / Demo@123
+            rohan@advocateconnect.local / Demo@123
+            sneha@advocateconnect.local / Demo@123
+            karan@advocateconnect.local / Demo@123
+            nisha@advocateconnect.local / Demo@123
+
+Configure DB credentials in:
+  src/main/resources/application.properties
+
+Use JDK 11 + Tomcat 9.x.
