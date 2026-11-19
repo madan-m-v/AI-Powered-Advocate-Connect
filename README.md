@@ -1,4 +1,4 @@
-# Advocate Connect — AI-Based Advocate Search & Booking Portal
+# Advocate Connect — AI-Based Advocate Search & Booking Portal BY MADAN M V
 
 Java Servlets + JSP + JDBC + MySQL 8, packaged as a Maven WAR for **Tomcat 9** (`javax.servlet`) and **JDK 11**, ready for Apache NetBeans.
 
